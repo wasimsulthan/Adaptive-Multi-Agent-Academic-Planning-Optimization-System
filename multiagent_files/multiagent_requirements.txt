@@ -1,0 +1,25 @@
+# ── Phase 1: Ingestion ────────────────────────────────────────────────────
+openai>=1.30.0
+psycopg2-binary>=2.9.9
+pgvector>=0.3.0
+pypdf>=4.0.0
+tiktoken>=0.7.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+
+# ── Phase 2: Query + API + UI ────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+httpx>=0.27.0
+sentence-transformers>=3.0.0
+torch>=2.2.0
+streamlit>=1.38.0
+requests>=2.32.0
+sse-starlette>=2.1.0
+
+# ── Phase 3: Quiz Generation ─────────────────────────────────────────────
+anthropic>=0.34.0
+sseclient-py>=1.8.0
